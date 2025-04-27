@@ -1,6 +1,6 @@
 import React from 'react';
+import { FaListAlt, FaUserGraduate, FaUserPlus } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { FaUserGraduate, FaListAlt, FaUserPlus } from 'react-icons/fa';
 import './Home.css';
 
 const Home = () => {

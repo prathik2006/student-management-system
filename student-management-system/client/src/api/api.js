@@ -3,8 +3,9 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
-});
+    baseURL: 'https://student-management-system-r6fl.onrender.com/api',
+  });
+  
 
 // Get all students
 export const getStudents = async () => {

@@ -6,7 +6,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home fade-in">
-      <div className="hero">
+      <div className="hero" >
         <h1 className="hero-title">Student Management System</h1>
         <p className="hero-text">
           A comprehensive solution for managing student records efficiently
